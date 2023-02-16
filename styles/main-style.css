@@ -1,0 +1,123 @@
+.avatar {
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+  }
+
+  .image-align-avatar {
+    width: 100%;
+    text-align: center;
+  }
+  .sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #313131;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    text-align: center;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .main {
+    margin-left: 20%; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size:16px;
+    line-height:1.5em;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .project {width: 100%;}
+  }
+
+
+/* About / Index Page */
+.about-text {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.favorite-projects {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3.3%;
+  height: 20%;
+  background-color: #eaeaea;
+  border-radius: 20px;
+}
+
+.favorite-projects:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.favorite-projects h3 {
+  text-align: center;
+}
+
+.project {
+  float: left;
+  width: 30%;
+  padding-left: 3.3%;
+}
+
+
+/* Resume Page */
+
+.resume {
+  border-radius: 20px;
+  background-color: #eaeaea;
+}
+
+.resume-padding {
+  padding: 5%;
+}
+
+/* Portfolio Page */
+
+.portfolio {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3.3%;
+  height: 20%;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Contact Page */
+
+.contact {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3.3%;
+  height: 20%;
+  background-color: #eaeaea;
+  border-radius: 20px;
+  text-align: center;
+}
